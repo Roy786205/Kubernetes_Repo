@@ -18,8 +18,8 @@ spec:
           image: tomcat:latest
           resources: 
             requests:
-              cpu: "500m"
-              memory: "128Mi" 
+              cpu: "10m"
+              memory: "12Mi" 
           ports: 
               - containerPort: 8080
                 name: java
