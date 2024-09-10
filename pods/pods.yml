@@ -1,0 +1,15 @@
+apiversion: v1
+
+kind: pods
+
+metadata: 
+     "name": rohit
+
+spec: 
+    containers:
+      - image:  nginx:latest
+        name:  nginxpod
+        ports:
+        - name:  http
+          containerPort: 80
+          protocol: TCP
