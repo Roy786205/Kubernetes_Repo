@@ -1,4 +1,4 @@
-apiVersion:  v1  #acts a manuall to your system
+apiVersion: v1  #acts a manuall to your system
 kind: Pod
 metadata:  #like a tag
         name: mypod1
