@@ -22,7 +22,7 @@ apiVersion: v1
 kind:  Service
 metadata:
       name: nodeportdev
-      namespace: namespacedev
+      namespace: namespacedev1
 spec:
     selector:
         app:  nginxappdev
