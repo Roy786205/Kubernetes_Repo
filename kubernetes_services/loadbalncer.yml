@@ -8,8 +8,8 @@ spec:
       image: nginx:latest
       resources: 
           requests:
-            cpu: "50m"
-            memory: "90Mi"        
+            cpu: "10m"
+            memory: "12Mi"        
       ports:  
         - name: http
           containerPort: 80
