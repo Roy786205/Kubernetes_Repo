@@ -21,7 +21,7 @@ metadata:
         name: lb  #cluster 
 spec:
     selector:
-          app: mypod2  
+          app: mypod2 
     type: LoadBalancer 
     ports:
     - protocol: TCP
