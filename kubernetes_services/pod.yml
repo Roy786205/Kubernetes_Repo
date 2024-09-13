@@ -4,7 +4,7 @@ metadata:  #like a tag
         name: mypod1
 spec:
  containers:
-    - name: mypod-co
+    - name: mypod-container
       image: nginx:latest
       resources: 
           requests:
