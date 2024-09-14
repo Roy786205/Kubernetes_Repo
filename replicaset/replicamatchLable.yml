@@ -8,4 +8,5 @@ spec:
       replicas: 2
       template:
           metadata:
-            name: 
+            name: replicamatchlable1
+            
