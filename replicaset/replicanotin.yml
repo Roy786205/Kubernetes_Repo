@@ -20,7 +20,7 @@ spec:
                    cpu: "10m"
                    memory: "12Mi"
               ports:
-                   - name: http
+                   - name: nginx:latest
                      port:  80
                      protocol: TCP 
     selector:
