@@ -15,4 +15,5 @@ spec:
               - image:  nginx:latest
                 name: contexists
             resources:
-            req
+            requests:
+                 
