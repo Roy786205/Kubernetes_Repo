@@ -13,4 +13,4 @@ spec:
                  app: replicatcontroller1
           spec:
               containers:
-                -        
+                - name: replic       
