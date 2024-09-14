@@ -3,5 +3,5 @@ kind: ReplicaSet
 metadata:
       name: replicanotin
       labels: 
-           replicanotin
+          app: replicanotin
 spec:
