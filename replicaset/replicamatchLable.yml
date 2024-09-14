@@ -20,6 +20,6 @@ spec:
                         cpu: "10m"
                         memory: "12Mi"
                   ports:
-                  - name:  Port Name
-                    containerPort: 0:  Port
+                  - name:  ngi
+                    containerPort: 80
                     protocol: TCP          
