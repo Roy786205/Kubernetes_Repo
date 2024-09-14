@@ -6,3 +6,5 @@ metadata:
            app: replicatcontroller1
 spec:
       replicas: 2
+      template:
+          
