@@ -13,7 +13,7 @@ spec:
                app: replicamatchlable1
           spec:
               containers:
-                - name: 
+                - name: contmatchlable
                   image:  nginx:latest
                   resources:
                       requests:
