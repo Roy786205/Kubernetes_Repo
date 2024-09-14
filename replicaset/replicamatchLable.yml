@@ -16,4 +16,5 @@ spec:
                 - name: replicamatchlable1
                   image:  nginx:latest
                   resources:
-                           
+                      requests:
+                             
