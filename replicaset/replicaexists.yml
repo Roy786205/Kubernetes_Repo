@@ -25,4 +25,4 @@ spec:
               protocol: TCP
       selector:
            matchExpressions:
-             - {key: sdf, }         
+             -  { key: app, operator: Exists}                
