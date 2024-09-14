@@ -6,3 +6,5 @@ metadata:
          app:  replicaexists
 spec:
       replicas: 2
+      template:
+          
