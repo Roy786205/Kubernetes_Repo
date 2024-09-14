@@ -11,5 +11,4 @@ spec:
             name: replicaexists
             labels:
               app: replicaexists
-
-              \
+              
