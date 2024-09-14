@@ -12,7 +12,7 @@ spec:
              labels:
                  app: replicatcontroller1
           spec:
-              containers:
+                containers:
                 - name: contreplicacontroller
                   image:  nginx:latest
               resources:
