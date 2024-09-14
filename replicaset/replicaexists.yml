@@ -23,6 +23,6 @@ spec:
             - name:  http
               containerPort: 80
               protocol: TCP
-      selector:
+    selector:
            matchExpressions:
              -  { key: app, operator: Exists}                
