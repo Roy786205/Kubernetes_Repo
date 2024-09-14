@@ -18,6 +18,7 @@ spec:
               resources:
               requests:
                    ports:
-                   - name:  Port Name
+                   - name:  http
                      containerPort: 80
-                     protocol: TCP           
+                     protocol: TCP      
+                          
