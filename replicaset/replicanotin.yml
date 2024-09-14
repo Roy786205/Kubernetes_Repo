@@ -12,5 +12,10 @@ spec:
         labels:
            app: replicanotin
       spec:
-          co     
+          containers:
+            - image:  image
+            name:  my-name
+            env:
+              - name:  ENVVARNAME
+                value:  ENVVARVALUE     
             
