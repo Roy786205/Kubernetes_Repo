@@ -9,9 +9,9 @@ spec:
     template:
           #write here your pod's script from metadata and spec.
       metadata:
-        name: replicaset3
+        name: replicaexists
         labels:
-            app: replicaset3
+            app: replicaexists
       spec:
           containers:
               - name: nginxcont3
