@@ -8,8 +8,8 @@ spec:
     replicas: 2
     template:
       metadata:
-       name:  replicanotin
-       labels:
+        name:  replicanotin
+        labels:
            app: replicanotin
 
             
