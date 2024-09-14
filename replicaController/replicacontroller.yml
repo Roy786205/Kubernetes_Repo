@@ -15,4 +15,9 @@ spec:
               containers:
                 - name: contreplicacontroller
                   image:  nginx:latest
-              re           
+              resources:
+              requests:
+                   ports:
+                   - name:  Port Name
+                     containerPort:port:  Port
+                     protocol: TCP           
