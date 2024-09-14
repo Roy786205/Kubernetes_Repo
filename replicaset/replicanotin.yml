@@ -10,6 +10,6 @@ spec:
       metadata:
        name:  replicanotin
        labels:
-           app: 
+           app: replicanotin
 
             
