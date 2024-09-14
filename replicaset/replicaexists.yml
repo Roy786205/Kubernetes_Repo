@@ -25,4 +25,4 @@ spec:
               protocol: TCP
       selector:
            matchExpressions:
-             - {key}         
+             - {key: sdf, }         
