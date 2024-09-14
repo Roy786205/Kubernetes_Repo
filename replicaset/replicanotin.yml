@@ -5,4 +5,5 @@ metadata:
       labels: 
           app: replicanotin
 spec:
+     replicas: 2
      
