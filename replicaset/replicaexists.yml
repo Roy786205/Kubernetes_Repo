@@ -16,4 +16,5 @@ spec:
                 name: contexists
             resources:
             requests:
-                 
+                 cpu: "10m"
+                 memory:
