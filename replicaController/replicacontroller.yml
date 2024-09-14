@@ -9,4 +9,5 @@ spec:
       template:
            metadata:
              name: replicatcontroller1
-             
+             labels:
+                 
