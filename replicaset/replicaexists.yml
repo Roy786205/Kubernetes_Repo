@@ -14,7 +14,7 @@ spec:
             app: replicaexists
       spec:
           containers:
-              - name: nginxcont3
+              - name: cont
                 image: nginx:latest
                 resources:
                     requests:
