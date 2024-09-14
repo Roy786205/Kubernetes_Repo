@@ -5,4 +5,5 @@ metadata:
       labels:
            app: replicatcontroller1
 spec:
-      metada           
+      metadata:
+                 
