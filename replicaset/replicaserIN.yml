@@ -1,20 +1,20 @@
 apiVersion: apps/v1  
 kind: ReplicaSet
 metadata: 
-      name: replicasetnotin
+      name: replicasetin
       labels:
-            app: replicaset2
+            app: replicaset1
 spec:
     replicas: 3  #specify number of pod's replica to be created. 
     template:
           #write here your pod's script from metadata and spec.
       metadata:
-        name: replicaset2
+        name: replicaset1
         labels:
-            app: replicaset2
+            app: replicaset1
       spec:
           containers:
-              - name: nginxcont2
+              - name: nginxcont1
                 image: nginx:latest
                 resources:
                     requests:
@@ -26,4 +26,4 @@ spec:
                       name: http  
     selector: 
         matchExpressions:
-          - {key: app, operator: NotIn, values: [replicaset1 , replicaset3 , replicaset4]}                  
+          - {key: app, operator: In, values: [replicaset1 , replicaset2]}                  
