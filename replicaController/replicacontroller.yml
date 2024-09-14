@@ -10,4 +10,4 @@ spec:
            metadata:
              name: replicatcontroller1
              labels:
-                 
+                 app: replicatcontroller1
