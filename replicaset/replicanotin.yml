@@ -15,5 +15,7 @@ spec:
           containers:
             - name:  contnotin
               image: nginx:latest
-              resources:   
+              resources:
+                 requests:
+                      
             
