@@ -11,3 +11,4 @@ spec:
              name: replicatcontroller1
              labels:
                  app: replicatcontroller1
+                 
