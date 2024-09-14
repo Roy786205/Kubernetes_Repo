@@ -4,4 +4,5 @@ metadata:
      name: replicarmatchlable
      labels:
         app: replicamatchlable1
-spec:        
+spec:
+            
