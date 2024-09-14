@@ -19,6 +19,8 @@ spec:
                   requests:
                     ports:
                      - name:  http
-                     containerPort: 80
-                     protocol: TCP      
-      selector:                    
+                       containerPort: 80
+                       protocol: TCP      
+      selector:   
+      
+                       
