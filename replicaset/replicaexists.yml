@@ -12,5 +12,5 @@ spec:
             labels:
               app: replicaexists
             containers:
-              - image:  image
-                name: cont
+              - image:  
+                name: contexists
