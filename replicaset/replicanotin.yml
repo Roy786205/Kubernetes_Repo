@@ -20,9 +20,9 @@ spec:
                    cpu: "10m"
                    memory: "12Mi"
               ports:
-                  - name: http
-                    port:  80
-                    protocol: TCP 
+                   - name: http
+                     port:  80
+                     protocol: TCP 
     selector:
         matchExpressions:
             - {key: app, operator: In, values: [replicanotin1 , replicanotin2]}                       
