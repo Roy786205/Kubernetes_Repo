@@ -13,4 +13,5 @@ spec:
                  app: replicatcontroller1
           spec:
               containers:
-                - name: contreplica       
+                - name: contreplicacontroller
+                         
