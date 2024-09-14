@@ -9,7 +9,7 @@ spec:
     template:
           #write here your pod's script from metadata and spec.
       metadata:
-        name: INood
+        name: INpod
         labels:
             app: replicaset1
       spec:
