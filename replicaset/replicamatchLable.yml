@@ -3,4 +3,4 @@ kind: ReplicaSet
 metadata:
      name: replicarmatchlable
      labels:
-        
+        app: reolica
