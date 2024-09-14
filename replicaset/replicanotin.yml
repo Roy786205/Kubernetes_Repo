@@ -2,5 +2,6 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
       name: replicanotin
-      labels: replicanotin
+      labels: 
+           replicanotin
 spec:
