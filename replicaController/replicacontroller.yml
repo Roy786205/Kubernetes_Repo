@@ -3,4 +3,4 @@ kind: ReplicationController
 metadata:
       name: replicacontroller
       labels:
-           app: 
+           app: replicatco
