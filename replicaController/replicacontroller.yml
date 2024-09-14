@@ -7,4 +7,6 @@ metadata:
 spec:
       replicas: 2
       template:
-           
+           metadata:
+             name: replicatcontroller1
+             
