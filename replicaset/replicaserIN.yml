@@ -14,7 +14,7 @@ spec:
             app: replicaset1
       spec:
           containers:
-              - name: conc
+              - name: contin
                 image: nginx:latest
                 resources:
                     requests:
