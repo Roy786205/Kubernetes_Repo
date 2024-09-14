@@ -14,7 +14,7 @@ spec:
             app: in
       spec:
           containers:
-              - name: nginxcont1
+              - name: incont
                 image: nginx:latest
                 resources:
                     requests:
