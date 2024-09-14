@@ -18,7 +18,7 @@ spec:
                     resources:
                       requests:
                           cpu: "10m"
-                          memo
+                          memory: "12Mi""
                     ports:
                         - name:  http
                           containerPort: 80
