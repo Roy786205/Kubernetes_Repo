@@ -1,9 +1,9 @@
 apiVersion: apps/v1  
 kind: ReplicaSet
 metadata: 
-      name: in
+      name: inpod
       labels:
-            app: in
+            app: inpod
 spec:
     replicas: 3  #specify number of pod's replica to be created. 
     template:
