@@ -26,5 +26,5 @@ spec:
                     protocol: TCP 
     selector:
         matchExpressions:
-            - {key: app, operator: NotIn, values: [replicanotin1 , replicanotin2]}                       
+                 - {key: app, operator: NotIn, values: [replicaset1 , replicaset3 , replicaset4]}                         
             
