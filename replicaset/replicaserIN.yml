@@ -1,7 +1,7 @@
 apiVersion: apps/v1  
 kind: ReplicaSet
 metadata: 
-      name: inpod
+      name: in
       labels:
             app: replicasetin
 spec:
