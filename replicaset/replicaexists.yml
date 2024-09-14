@@ -11,6 +11,7 @@ spec:
             name: replicaexists
             labels:
               app: replicaexists
+      spec:
             containers:
               - image:  nginx:latest
                 name: contexists
@@ -22,4 +23,3 @@ spec:
             - name:  http
               containerPort: 80
               protocol: TCP 
-                  
