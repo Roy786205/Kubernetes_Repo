@@ -12,5 +12,5 @@ spec:
              labels:
                  app: replicatcontroller1
           spec:
-              resources:
-                     
+              containers:
+                -        
