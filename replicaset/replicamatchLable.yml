@@ -9,4 +9,5 @@ spec:
       template:
           metadata:
             name: replicamatchlable1
-            
+            labels:
+               app: 
