@@ -23,6 +23,6 @@ spec:
                   - name:  http
                     containerPort: 80
                     protocol: TCP   
-          selector:
+      selector:
              matchLabels:
                 app: replicaset4   
