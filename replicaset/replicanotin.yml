@@ -13,7 +13,7 @@ spec:
            app: replicanotin
       spec:
           containers:
-            - name:  image
+            - name:  contnotin
             name:  my-name
             env:
               - name:  ENVVARNAME
