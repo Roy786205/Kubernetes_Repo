@@ -11,4 +11,9 @@ spec:
             name: replicaexists
             labels:
               app: replicaexists
-              
+            containers:
+              - image:  image
+              name:  my-name
+              env:
+                - name:  ENVVARNAME
+                  value:  ENVVARVALUE  
