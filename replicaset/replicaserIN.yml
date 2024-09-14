@@ -9,9 +9,9 @@ spec:
     template:
           #write here your pod's script from metadata and spec.
       metadata:
-        name: in
+        name: inpod
         labels:
-            app: in
+            app: inpod
       spec:
           containers:
               - name: incont
