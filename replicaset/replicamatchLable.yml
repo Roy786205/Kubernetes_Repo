@@ -15,4 +15,5 @@ spec:
               containers:
                 - name: replicamatchlable1
                   image:  nginx:latest
-                       
+                  resources:
+                           
