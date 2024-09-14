@@ -11,5 +11,6 @@ spec:
         name:  replicanotin
         labels:
            app: replicanotin
-      spec     
+      spec:
+          co     
             
