@@ -13,8 +13,8 @@ spec:
                  app: replicatcontroller1
           spec:
                 containers:
-                - name: contreplicacontroller
-                  image:  nginx:latest
+                  - name: contreplicacontroller
+                    image:  nginx:latest
               resources:
                   requests:
                     ports:
