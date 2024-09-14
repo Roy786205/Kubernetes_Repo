@@ -12,5 +12,6 @@ spec:
             labels:
               app: replicaexists
             containers:
-              - image:  
+              - image:  nginx:latest
                 name: contexists
+                
