@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata: 
       name: replicasetexists
       labels:
-            app: replicaset3
+            app: replicaexists
 spec:
     replicas: 3  #specify number of pod's replica to be created. 
     template:
