@@ -9,7 +9,7 @@ spec:
       template:
           metadata:
             name: replicamatchlable1
-          labels:
+            labels:
                app: replicamatchlable1
           spec:
               containers:
