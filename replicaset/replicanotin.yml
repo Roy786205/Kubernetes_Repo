@@ -21,8 +21,8 @@ spec:
                      cpu: "10m"
                      memory: "12Mi"
               ports:
-                  - name: 
-                    port:  80
+                  - name: http
+                    containerPort: 0:  80
                     protocol: TCP 
     selector:
         matchExpressions:
