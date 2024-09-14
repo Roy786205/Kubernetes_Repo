@@ -16,7 +16,7 @@ spec:
               - image:  nginx:latest
                 name: contexists
             resources:
-              requests:
+                requests:
                  cpu: "10m"
                  memory: "12Mi"
             ports:
