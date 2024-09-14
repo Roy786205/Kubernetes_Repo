@@ -25,4 +25,4 @@ spec:
                     protocol: TCP   
       selector:
              matchLabels:
-                app: replicaset4   
+                app: replicamatchlable1
