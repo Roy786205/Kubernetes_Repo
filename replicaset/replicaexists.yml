@@ -3,5 +3,5 @@ kind: ReplicaSet
 metadata:
       name: replicaexists
       labels:
-          
+         app:  replicaexists
 spec:
