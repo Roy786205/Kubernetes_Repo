@@ -14,14 +14,14 @@ spec:
             app: replicaset1
       spec:
           containers:
-              - name: contin
+              - name: con
                 image: nginx:latest
                 resources:
                     requests:
                         cpu: "10m"
                         memory: "12Mi" 
                 ports:
-                    - protocol: TCP
+                        - protocol: TCP
                       containerPort: 80
                       name: http  
     selector: 
