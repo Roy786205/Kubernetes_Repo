@@ -21,5 +21,5 @@ spec:
                         memory: "12Mi"
                   ports:
                   - name:  Port Name
-                    port:  Port
+                    containerPort: 0:  Port
                     protocol: TCP          
