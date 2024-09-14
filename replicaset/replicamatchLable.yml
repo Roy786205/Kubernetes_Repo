@@ -13,4 +13,5 @@ spec:
                app: replicamatchlable1
           spec:
               containers:
-                -      
+                - name: replicamatchlable1
+                       
