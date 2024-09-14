@@ -3,4 +3,5 @@ kind: ReplicaSet
 metadata:
      name: replicarmatchlable
      labels:
-        app: replicamatchlable
+        app: replicamatchlable1
+spec:        
