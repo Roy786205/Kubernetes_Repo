@@ -19,5 +19,5 @@ spec:
               requests:
                    ports:
                    - name:  Port Name
-                     containerPort:port:  Port
+                     containerPort: 80
                      protocol: TCP           
