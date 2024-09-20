@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: StatefulSet 
 metadata: 
-       name: ss
+       name: rohit
        labels:
-            app: ss
+            app: rohit
 spec: 
     replicas: 3  #how many replica's you want to create on the basis of template
     template:
