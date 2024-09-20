@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deployhpa
   labels:
-      app: deployapp
+      app: deployhpa
 spec:
     replicas: 2     #desiredstate
     strategy: 
