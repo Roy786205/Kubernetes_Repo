@@ -28,4 +28,4 @@ spec:
                    value: "1234"
     selector:
         matchLabels:
-          app: ss
+          app: rohit
