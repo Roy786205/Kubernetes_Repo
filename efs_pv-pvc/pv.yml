@@ -26,4 +26,5 @@ spec:
   - ReadWriteOnce
 storageClassName: standard
 resources: 
-   request:  
+   requests:
+         
