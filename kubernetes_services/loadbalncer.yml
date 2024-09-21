@@ -2,7 +2,7 @@ apiVersion:  v1  #acts a manuall to your system
 kind: Pod
 metadata:  #like a tag
         labels:
-        app: mypod2
+          app: mypod2
 spec:
  containers:
     - name: mypod-container
