@@ -23,4 +23,4 @@ metadata:
 
 spec:  
  accessModes: 
-        - ReadWriteOnce 
+  - ReadWriteOnce 
