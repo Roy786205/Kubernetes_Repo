@@ -10,4 +10,4 @@ spec:
       accessModes: 
          - ReadWriteOnce
 
-        
+      storageClassName: standard  
