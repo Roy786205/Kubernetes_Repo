@@ -22,5 +22,5 @@ metadata:
   name:  efs-claim
 
 spec:  
-  accessModes: 
+ accessModes: 
         - ReadWriteOnce 
