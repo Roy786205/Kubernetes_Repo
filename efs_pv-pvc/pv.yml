@@ -12,5 +12,6 @@ spec:
 
     storageClassName: standard  
     persistentVolumeReclaimPolicy: Retain
-    csi:   
+    csi:   #container storage type
        driver: efs.csi.aws.com
+       
