@@ -11,4 +11,4 @@ spec:
          - ReadWriteOnce
 
     storageClassName: standard  
-    PersistentVolume re
+    persistentVolumeReclaimPolicy: r
