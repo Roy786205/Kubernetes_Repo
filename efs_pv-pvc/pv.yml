@@ -25,4 +25,5 @@ spec:
  accessModes: 
   - ReadWriteOnce
 storageClassName: standard
-resources:  
+resources: 
+   request:  
