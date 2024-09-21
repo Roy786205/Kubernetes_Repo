@@ -4,10 +4,10 @@ metadata:
   name: pv-efs
       
 spec: 
-    capacity:
-      storage: 5Gi
-      volumeMode: Filesystem
-      accessModes: 
+  capacity:
+    storage: 5Gi
+    volumeMode: Filesystem
+    accessModes: 
         - ReadWriteOnce
 
     storageClassName: standard  
