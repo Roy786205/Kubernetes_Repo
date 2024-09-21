@@ -12,3 +12,5 @@ spec:
 
     storageClassName: standard  
     persistentVolumeReclaimPolicy: Retain
+    csi:
+       
