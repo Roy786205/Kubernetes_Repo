@@ -26,5 +26,5 @@ spec:
   - ReadWriteOnce
 storageClassName: standard
 resources: 
-   requests:
+  requests:
       storage: 5Gi
