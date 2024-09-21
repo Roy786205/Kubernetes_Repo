@@ -17,5 +17,5 @@ spec:
     volumeHandle: fs-0056605f16cc9289e
 ---
 apiVersion: v1
-kind: PersistentVolume
+kind: PersistentVolumeClaim
 metadata:
