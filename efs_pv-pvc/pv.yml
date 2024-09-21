@@ -24,4 +24,4 @@ metadata:
 spec:  
  accessModes: 
   - ReadWriteOnce
-   
+storageClassName:  
