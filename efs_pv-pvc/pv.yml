@@ -8,11 +8,10 @@ spec:
       storage: 5Gi
       volumeMode: Filesystem
       accessModes: 
-         - ReadWriteOnce
+        - ReadWriteOnce
 
     storageClassName: standard  
     persistentVolumeReclaimPolicy: Retain
     csi:   #container storage type
        driver: efs.csi.aws.com
        volumeHandle: fs-0056605f16cc9289e
-       
