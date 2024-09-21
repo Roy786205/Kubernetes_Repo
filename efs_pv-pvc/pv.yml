@@ -1,4 +1,4 @@
 apiVersion: v1
-kind: 
-metadata:
+kind: PersistentVolume
+metadata: 
 spec: 
