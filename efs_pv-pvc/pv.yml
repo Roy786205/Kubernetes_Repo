@@ -13,4 +13,4 @@ spec:
     storageClassName: standard  
     persistentVolumeReclaimPolicy: Retain
     csi:
-       
+       driver: 
