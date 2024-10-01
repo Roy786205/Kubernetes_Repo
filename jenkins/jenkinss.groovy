@@ -37,6 +37,3 @@ pipeline {
         }
     }
 }
-
-
-//default location of your target directory /home/ubuntu/workspace
